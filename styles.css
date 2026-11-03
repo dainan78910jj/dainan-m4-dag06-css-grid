@@ -299,3 +299,10 @@ image displayed on the right and paragraphs on the left.*/
 #om-oss-r h2 {
   grid-column: 1 / -1;
 }
+
+/* Steg 6. Justify your choice
+In a comment for each layout, write "Grid" or "Flexbox" and explain why.
+
+Header, navigation, and footer: Flexbox - because they are linear alignments and only need to consider the wrap and spacing between items.
+The menu list and about us: Grid - because their child elements need to be arranged in two dimensions, and consider the position both in horizontal and vertical axes.
+*/
